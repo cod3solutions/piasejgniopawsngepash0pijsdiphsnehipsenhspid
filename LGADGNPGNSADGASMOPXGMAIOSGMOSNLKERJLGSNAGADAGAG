@@ -177,9 +177,9 @@ repeat
     wait()
 until game:IsLoaded()
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Splix"))() --you can go into the github link and copy all of it and modify it for yourself.
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/hud/main/gui"))() --you can go into the github link and copy all of it and modify it for yourself.
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/hud/main/Notification"))()
-Library.theme.accentcolor = Color3.fromRGB(138, 43, 226)
+Library.theme.accentcolor = Color3.fromRGB(128, 128, 128)
 local Window3 = Library:CreateWindow("Sanky Box ♠", Vector2.new(600, 400))
 
 local GetService =
@@ -251,11 +251,11 @@ loadscreen33:AddToggle(
 )
  --Memelouse#3150
 
-local SettingsTab4 = loadscreen2:CreateSector("egoist dis", "right")
+local SettingsTab4 = loadscreen2:CreateSector("Discord/website", "right")
 
 local discord =
     SettingsTab4:AddButton(
-    "fake button",
+    "Join Discord",
     function(bool)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/meffsol-remake/main/discord%20join"))()
     end
@@ -266,7 +266,7 @@ local fortnite =
     "website link",
     function(bool)
         setclipboard("https://speeds.solutions/")
-        NotifyLib.prompt("cod3.solutions", "суцефули хз чо qq8x8 соси мой хуй", 3)
+        NotifyLib.prompt("Sanky Box ♠", "Successfully copied to clipboard", 3)
     end
 )
 
@@ -274,18 +274,18 @@ local loadscreen3 = loadscreen2:CreateSector("Settings", "left")
 
 loadscreen3:AddDropdown(
     "Game",
-    {"орига", "копия", "кончить в отца he4to"},
-    "орига",
+    {"Da Hood", "Untilted Hood", "Coming Soon"},
+    "Da Hood",
     false,
     function(Value)
     end
 )
 
-local anticheatbypass = "античет (лол не ворк)"
+local anticheatbypass = "Anticheat"
 loadscreen3:AddDropdown(
     "Bypass",
-    {"античит", "пошел нахуй"},
-    "античит",
+    {"Anticheat", "Nothing"},
+    "Anticheat",
     false,
     function(Value)
         anticheatbypass = Value
@@ -295,9 +295,9 @@ loadscreen3:AddDropdown(
 
 local developermode = "True"
 loadscreen3:AddDropdown(
-    "отпиздить всех локеров??",
-    {"да папочка~", "ниет папа~~"},
-    "да папочка~",
+    "Developer Mode",
+    {"True", "False"},
+    "True",
     false,
     function(Value)
         developermode = Value
@@ -305,9 +305,9 @@ loadscreen3:AddDropdown(
 )
 
 loadscreen3:AddDropdown(
-    "метод загрузки",
-    {"норм деф ноу бан", "КОНЧИТЬ В ОТЦА HE4TO"},
-    "норм деф ноу бан",
+    "Load Method",
+    {"Safe Method", "Coming Soon..."},
+    "Safe Method",
     false,
     function(Value)
     end
@@ -316,9 +316,9 @@ loadscreen3:AddDropdown(
 local versionthing = "Private"
 
 loadscreen3:AddDropdown(
-    "версия",
-    {"приватка"},
-    "приватка",
+    "Version",
+    {"Private"},
+    "Private",
     false,
     function(Value)
         versionthing = Value
@@ -326,10 +326,10 @@ loadscreen3:AddDropdown(
 )
 --Memelouse#3150
 loadscreen3:AddButton(
-    "загрузить код солюция",
+    "Execute",
     function()
         if checkifexecuted == true then
-            NotifyLib.prompt("cod3.solutions", "уже инжект долбаеб ебанный", 0)
+            NotifyLib.prompt("Sanky Box ♠", "Already Executed!", 0)
             return
         end
         if checkifanticheat == false then
@@ -475,7 +475,7 @@ loadscreen3:AddButton(
                 breadcrumb.Shape = Enum.PartType.Ball
                 breadcrumb.Material = "ForceField"
                 breadcrumb.CanCollide = false
-                breadcrumb.Color = Color3.fromRGB(138, 43, 226)
+                breadcrumb.Color = Color3.fromRGB(4, 0, 255)
                 breadcrumb.Parent = game.Workspace
                 breadcrumb.Size = Vector3.new(1, 1, 1)
                 wait(0.2)
@@ -483,7 +483,7 @@ loadscreen3:AddButton(
             end
 
             getgenv().selfchamfollow = false
-            getgenv().selfchamfollowingcolor = Color3.fromRGB(138, 43, 226)
+            getgenv().selfchamfollowingcolor = Color3.fromRGB(4, 0, 255)
             getgenv().selfchamfollowwait = 0.4
             getgenv().clonematerial = "ForceField"
             getgenv().skybox = false
@@ -518,19 +518,19 @@ loadscreen3:AddButton(
             local Yung =
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/meffsol-remake/main/orbit"))() -- This is not mine
             local Circle2222 = Yung:New3DCircle()
-            local legitcolor = Color3.fromRGB(138, 43, 226)
+            local legitcolor = Color3.fromRGB(253, 150, 255)
             Circle2222.Visible = false
             Circle2222.ZIndex = 1
             local Chingbing32 = false
             local Chingbing33 = false
             Circle2222.Transparency = 1
-            Circle2222.Color = Color3.fromRGB(138, 43, 226)
+            Circle2222.Color = Color3.fromRGB(255, 255, 255)
             Circle2222.Thickness = 1
             --
             --highlight
             local niggacum2 = false
-            local niggacumcolorxe2 = Color3.fromRGB(138, 43, 226)
-            local niggaculor2 = Color3.fromRGB(138, 43, 226)
+            local niggacumcolorxe2 = Color3.fromRGB(255, 0, 0)
+            local niggaculor2 = Color3.fromRGB(255, 0, 0)
             local LocalHL2 = Instance.new("Highlight")
             --
 
@@ -561,15 +561,15 @@ loadscreen3:AddButton(
                     showprediction = false,
                     rainbow = false,
                     thickness = 1.26,
-                    colour = Color3.fromRGB(138, 43, 226),
+                    colour = Color3.fromRGB(255, 255, 255),
                     from = "Penis"
                 },
                 orbit = {
                     enabled = false,
-                    visualization = true,
+                    visualization = false,
                     flymode = false,
                     flymodeh = 75,
-                    vc = Color3.fromRGB(138, 43, 226),
+                    vc = Color3.fromRGB(255, 255, 255),
                     speed = 2,
                     distance = 10
                 },
@@ -580,10 +580,10 @@ loadscreen3:AddButton(
                     circle = false,
                     forcefield = false,
                     forcefieldmat = "ForceField",
-                    forcefieldcol = Color3.fromRGB(138, 43, 226),
+                    forcefieldcol = Color3.fromRGB(253, 150, 255),
                     mode = "Part",
-                    partcolour = Color3.fromRGB(138, 43, 226),
-                    circlecolour = Color3.fromRGB(138, 43, 226)
+                    partcolour = Color3.fromRGB(255, 255, 255),
+                    circlecolour = Color3.fromRGB(255, 255, 255)
                 },
                  --Memelouse#3150
                 fov = {
@@ -592,7 +592,7 @@ loadscreen3:AddButton(
                     thickness = 2,
                     sides = 350,
                     radius = 50,
-                    colour = Color3.fromRGB(138, 43, 226),
+                    colour = Color3.fromRGB(255, 255, 255),
                     option = "Circle"
                 },
                 od = {
@@ -648,7 +648,7 @@ loadscreen3:AddButton(
             for i, v in pairs(r6_dummy:GetChildren()) do
                 v.Transparency = v.Name == "HumanoidRootPart" and 1 or 0.70
                 v.Material = "Neon"
-                v.Color = Color3.fromRGB(138, 43, 226)
+                v.Color = Color3.fromRGB(190, 139, 255)
                 v.CanCollide = false
                 v.Anchored = false
                 local decal = Instance.new("Decal", r6_dummy.Torso)
