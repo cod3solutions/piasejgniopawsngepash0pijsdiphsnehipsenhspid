@@ -10628,7 +10628,7 @@ loadscreen3:AddButton(
             local SettingsTab23 = SettingsTab:CreateSector("атсылачкоо", "right")
 
             SettingsTab23:AddLabel("cod3 - саздател")
-            SettingsTab23:AddLabel("qq8x8 sigma)
+            SettingsTab23:AddLabel("qq8x8 sigma")
             SettingsTab23:AddLabel("he4to retard ebuvhu")
             SettingsTab23:AddLabel("cod3.solutions scam is legal")
 
