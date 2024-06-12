@@ -1,42 +1,4 @@
 --[[
-    
-    
-     $$$$$$\                      $$\                       $$$$$$$\                      
-    $$  __$$\                     $$ |                      $$  __$$\                     
-    $$ /  \__| $$$$$$\  $$$$$$$\  $$ |  $$\ $$\   $$\       $$ |  $$ | $$$$$$\  $$\   $$\ 
-    \$$$$$$\   \____$$\ $$  __$$\ $$ | $$  |$$ |  $$ |      $$$$$$$\ |$$  __$$\ \$$\ $$  |
-     \____$$\  $$$$$$$ |$$ |  $$ |$$$$$$  / $$ |  $$ |      $$  __$$\ $$ /  $$ | \$$$$  / 
-    $$\   $$ |$$  __$$ |$$ |  $$ |$$  _$$<  $$ |  $$ |      $$ |  $$ |$$ |  $$ | $$  $$<  
-    \$$$$$$  |\$$$$$$$ |$$ |  $$ |$$ | \$$\ \$$$$$$$ |      $$$$$$$  |\$$$$$$  |$$  /\$$\ 
-     \______/  \_______|\__|  \__|\__|  \__| \____$$ |      \_______/  \______/ \__/  \__|
-                                            $$\   $$ |                                    
-                                            \$$$$$$  |                                    
-                                             \______/                                     
-
-
-                            --SANKY BOX SOURCE CODE--
-                            SANKY BOX COPYRIGHT CLAIM
-    Please read this disclaimer careful before actually using SANKY BOX
-    This is only operated by 1 guy its Memelouse#3150. The content displayed on this website is property of SANKY BOX community. you may not reuse republish, or reprint such content without our permission.
-    All information posted is merely for educational and informational purposes. It is not intended.
-    as a substitute for professional advice. Should you decide to act upon any information on this website, you do so at your own risk.
-    While the information on this website has been verified to the best of our abilities, we cannot guarantee that there are no mistakes or errors.
-    We reserve the right to change this policy at any given time, of which you will be promptly
-    updated. If you want to make sure that you are up to date with the latest changes, we advise
-    you to frequently visit this page.
-    
-    -- Dev notes
-    Some of our code are not made by us because sometimes we are lazy and dont have time for it so credits to them, but most of them are made by us.
-    If you need help with your script please contact us: Memelouse#3150
-    SANKY BOX will continue to update and will be open source every update.
-    You must be a lua/anyother developer to understand all of this, if you do not understand contact us: Memelouse#3150
-    Please contact us if you can find bugs with the script would be really appreciate it.
-    - https://discord.gg/zURnDKD4, IS our Discord
-    
-    - Credits to Nova Hub.
-    
-    - Sanky Box 2022 All Rights Reserved
-    
     Warning: Codes that arent mine isnt noted or somthing else. But the Esp, Ui Library, Config system, Notification Ui, Getplayer Function, Bullet Tracer and cframe speed Is not mine.
     Warning2: The locals And functions are really messed up. What im meaning is that im ass att coding.
     Warning3: Lots of pasting. Lots of beanbot paste
@@ -179,7 +141,7 @@ until game:IsLoaded()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/hud/main/gui"))() --you can go into the github link and copy all of it and modify it for yourself.
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/hud/main/Notification"))()
-Library.theme.accentcolor = Color3.fromRGB(105, 105, 105)
+Library.theme.accentcolor = Color3.fromRGB(255, 228, 225)
 local Window3 = Library:CreateWindow("cod3.solutions", Vector2.new(600, 400))
 
 local GetService =
@@ -196,14 +158,14 @@ local checkifanticheat = false
 
 local checkifexecuted = false
 
-local loadscreen2 = Window3:CreateTab("login")
+local loadscreen2 = Window3:CreateTab("Login")
 
-local loadscreen33 = loadscreen2:CreateSector("private", "right")
+local loadscreen33 = loadscreen2:CreateSector("Private Section", "right")
 
 local visualenabled = false
 
 loadscreen33:AddToggle(
-    "visual sect",
+    "Enable Visuals Section",
     true,
     function(Boolean)
         visualenabled = Boolean
@@ -213,7 +175,7 @@ loadscreen33:AddToggle(
 local miscenabled = false
 
 loadscreen33:AddToggle(
-    "player sect",
+    "Enable Player Section",
     true,
     function(Boolean)
         miscenabled = Boolean
@@ -223,7 +185,7 @@ loadscreen33:AddToggle(
 local teleportenabled = false
 
 loadscreen33:AddToggle(
-    "tp sect",
+    "Enable Teleport Section",
     true,
     function(Boolean)
         teleportenabled = Boolean
@@ -233,7 +195,7 @@ loadscreen33:AddToggle(
 local antilockenabled = false
 
 loadscreen33:AddToggle(
-    "anti aim sect",
+    "Enable Anti aim Section",
     true,
     function(Boolean)
         antilockenabled = Boolean
@@ -243,7 +205,7 @@ loadscreen33:AddToggle(
 local locksectionenabled = false
 
 loadscreen33:AddToggle(
-    "aim sect",
+    "Enable Aiming Section",
     true,
     function(Boolean)
         locksectionenabled = Boolean
@@ -251,41 +213,41 @@ loadscreen33:AddToggle(
 )
  --Memelouse#3150
 
-local SettingsTab4 = loadscreen2:CreateSector("discord", "right")
+local SettingsTab4 = loadscreen2:CreateSector("Discord/website", "right")
 
 local discord =
     SettingsTab4:AddButton(
-    "-",
+    "Join Discord",
     function(bool)
-        loadstring(game:HttpGet("-"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/meffsol-remake/main/discord%20join"))()
     end
 )
 
 local fortnite =
     SettingsTab4:AddButton(
-    "discord",
+    "website link",
     function(bool)
-        setclipboard("https://discord.gg/Vc5hSDD7")
-        NotifyLib.prompt("cod3.solutions", "copied", 3)
+        setclipboard("https://speeds.solutions/")
+        NotifyLib.prompt("Sanky Box ♠", "Successfully copied to clipboard", 3)
     end
 )
 
-local loadscreen3 = loadscreen2:CreateSector("settings", "left")
+local loadscreen3 = loadscreen2:CreateSector("Settings", "left")
 
 loadscreen3:AddDropdown(
-    "game",
-    {"Da Hood", "Hood copy", "FUCK HE4TO FATHER"},
+    "Game",
+    {"Da Hood", "Untilted Hood", "Coming Soon"},
     "Da Hood",
     false,
     function(Value)
     end
 )
 
-local anticheatbypass = "ac"
+local anticheatbypass = "Anticheat"
 loadscreen3:AddDropdown(
-    "bypass",
-    {"default", "nope"},
-    "delault",
+    "Bypass",
+    {"Anticheat", "Nothing"},
+    "Anticheat",
     false,
     function(Value)
         anticheatbypass = Value
@@ -295,9 +257,9 @@ loadscreen3:AddDropdown(
 
 local developermode = "True"
 loadscreen3:AddDropdown(
-    "what would u do?",
-    {"FUCK HE4TO FATHER", "say qq8x8 what u lil horny"},
-    "FUCK HE4TO FATHER",
+    "Developer Mode",
+    {"True", "False"},
+    "True",
     false,
     function(Value)
         developermode = Value
@@ -306,8 +268,8 @@ loadscreen3:AddDropdown(
 
 loadscreen3:AddDropdown(
     "Load Method",
-    {safe", "im hate niggas"},
-    "safe",
+    {"Safe Method", "Coming Soon..."},
+    "Safe Method",
     false,
     function(Value)
     end
@@ -317,8 +279,8 @@ local versionthing = "Private"
 
 loadscreen3:AddDropdown(
     "Version",
-    {"private"},
-    "private",
+    {"Private"},
+    "Private",
     false,
     function(Value)
         versionthing = Value
@@ -326,10 +288,10 @@ loadscreen3:AddDropdown(
 )
 --Memelouse#3150
 loadscreen3:AddButton(
-    "CLICK HERE!!!",
+    "Execute",
     function()
         if checkifexecuted == true then
-            NotifyLib.prompt("cod3.solutions", "executed areadly", 0)
+            NotifyLib.prompt("Sanky Box ♠", "Already Executed!", 0)
             return
         end
         if checkifanticheat == false then
