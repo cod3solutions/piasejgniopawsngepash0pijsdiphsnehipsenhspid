@@ -213,22 +213,22 @@ loadscreen33:AddToggle(
 )
  --Memelouse#3150
 
-local SettingsTab4 = loadscreen2:CreateSector("Discord/website", "right")
+local SettingsTab4 = loadscreen2:CreateSector("discord server", "right")
 
 local discord =
     SettingsTab4:AddButton(
-    "Join Discord",
+    "join discord (pls)",
     function(bool)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/meffsol-remake/main/discord%20join"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/neftyanoy/discord/main/discord-invite"))()
     end
 )
 
 local fortnite =
     SettingsTab4:AddButton(
-    "website link",
+    "profile link",
     function(bool)
-        setclipboard("https://speeds.solutions/")
-        NotifyLib.prompt("Sanky Box ♠", "Successfully copied to clipboard", 3)
+        setclipboard("https://www.roblox.com/users/4645375227/profile")
+        NotifyLib.prompt("cod3.solutions", "succefuly cummed in he4to", 3)
     end
 )
 
@@ -236,7 +236,7 @@ local loadscreen3 = loadscreen2:CreateSector("Settings", "left")
 
 loadscreen3:AddDropdown(
     "Game",
-    {"Da Hood", "Untilted Hood", "Coming Soon"},
+    {"Da Hood", "Untilted Hood", "cum in he4to father"},
     "Da Hood",
     false,
     function(Value)
@@ -268,7 +268,7 @@ loadscreen3:AddDropdown(
 
 loadscreen3:AddDropdown(
     "Load Method",
-    {"Safe Method", "Coming Soon..."},
+    {"Safe Method", "qq8x8 gacha life porn"},
     "Safe Method",
     false,
     function(Value)
@@ -291,7 +291,7 @@ loadscreen3:AddButton(
     "Execute",
     function()
         if checkifexecuted == true then
-            NotifyLib.prompt("Sanky Box ♠", "Already Executed!", 0)
+            NotifyLib.prompt("cod3.solutions", "Already Executed!", 0)
             return
         end
         if checkifanticheat == false then
@@ -332,7 +332,7 @@ loadscreen3:AddButton(
                             return old(self, ...)
                         end
                     )
-                    NotifyLib.prompt("Sanky Box ♠", "Bypassed Anti Cheat! (Da hood Bypass Version)", 0)
+                    NotifyLib.prompt("cod3.solutions", "Bypassed Anti Cheat! (Da hood Bypass Version)", 0)
                 end
 
                 if checkifanticheat == false then
@@ -365,7 +365,7 @@ loadscreen3:AddButton(
                                     game.ReplicatedStorage.MainEvent:FireServer("TeleportDetect")
                                 end
                             )
-                            NotifyLib.prompt("Sanky Box ♠", "Bypassed Anti Cheat! SEMI (Hood Modded Bypass Version)", 0)
+                            NotifyLib.prompt("cod3.solutions", "Bypassed Anti Cheat! SEMI (Hood Modded Bypass Version)", 0)
                         end
                     end
                 end
@@ -394,7 +394,7 @@ loadscreen3:AddButton(
                         end
                     )
 
-                    NotifyLib.prompt("Sanky Box ♠", "Bypassed Anti Cheat! (Untilted hood Bypass Version)", 0)
+                    NotifyLib.prompt("cod3.solutions", "Bypassed Anti Cheat! (Untilted hood Bypass Version)", 0)
                 end
             end
         end
@@ -610,7 +610,7 @@ loadscreen3:AddButton(
             for i, v in pairs(r6_dummy:GetChildren()) do
                 v.Transparency = v.Name == "HumanoidRootPart" and 1 or 0.70
                 v.Material = "Neon"
-                v.Color = Color3.fromRGB(190, 139, 255)
+                v.Color = Color3.fromRGB(248, 248, 255)
                 v.CanCollide = false
                 v.Anchored = false
                 local decal = Instance.new("Decal", r6_dummy.Torso)
@@ -1414,7 +1414,7 @@ loadscreen3:AddButton(
                                     benlocked.Playing = true
                                 end
                                 if getgenv().Notificationmode and getgenv().Notificationmodepart == "Meff" then
-                                    NotifyLib.prompt("Sanky Box ♠", "Locked: " .. AimlockTarget.DisplayName, 0)
+                                    NotifyLib.prompt("cod3.solutions", "Locked: " .. AimlockTarget.DisplayName, 0)
                                 end
                             end
                         else
@@ -1427,7 +1427,7 @@ loadscreen3:AddButton(
                                     game.StarterGui:SetCore(
                                         "SendNotification",
                                         {
-                                            Title = "Sanky Box",
+                                            Title = "cod3.solutions",
                                             Text = "Unlocked",
                                             Icon = "rbxassetid://11394475200",
                                             Duration = 1
@@ -1446,7 +1446,7 @@ loadscreen3:AddButton(
                                     benlocked.Playing = true
                                 end
                                 if getgenv().Notificationmode and getgenv().Notificationmodepart == "Meff" then
-                                    NotifyLib.prompt("Sanky Box ♠", "Unlocked", 0)
+                                    NotifyLib.prompt("cod3.solutions", "Unlocked", 0)
                                 end
                                 Line2.Visible = false
                             end
@@ -1855,7 +1855,7 @@ loadscreen3:AddButton(
 
                 lock6:AddColorpicker(
                     "Visual Color",
-                    Color3.fromRGB(0, 140, 175),
+                    Color3.fromRGB(248, 248, 255),
                     function(Color)
                         getgenv().Visual.Color = Color
                     end
