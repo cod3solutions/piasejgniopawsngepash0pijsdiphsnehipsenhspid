@@ -158,7 +158,7 @@ local checkifanticheat = false
 
 local checkifexecuted = false
 
-local loadscreen2 = Window3:CreateTab("Login")
+local loadscreen2 = Window3:CreateTab("load")
 
 local loadscreen33 = loadscreen2:CreateSector("Private Section", "right")
 
