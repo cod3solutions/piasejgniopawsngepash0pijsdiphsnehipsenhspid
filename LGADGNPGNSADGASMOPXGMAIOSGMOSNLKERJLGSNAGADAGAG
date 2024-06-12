@@ -1051,9 +1051,9 @@ loadscreen3:AddButton(
             AmbientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
 
             --Memelouse#3150
-            Library.theme.accentcolor = Color3.fromRGB(0, 204, 255)
-            local watermark = Library:CreateWatermark("Sanky Box ♠ | v2.19 | {fps} | {game} ")
-            local Window = Library:CreateWindow("Sanky Box ♠", Vector2.new(700, 900), Enum.KeyCode.RightControl)
+            Library.theme.accentcolor = Color3.fromRGB(248, 248, 255)
+            local watermark = Library:CreateWatermark("cod3.solutions | v2.19 | {fps} | {game} ")
+            local Window = Library:CreateWindow("cod3.solutions", Vector2.new(700, 900), Enum.KeyCode.RightControl)
 
             local meffsettings = {
                 Blatant = {
@@ -1397,7 +1397,7 @@ loadscreen3:AddButton(
                                     game.StarterGui:SetCore(
                                         "SendNotification",
                                         {
-                                            Title = "Sanky Box",
+                                            Title = "cod3.solutions",
                                             Text = "Locked: " .. AimlockTarget.DisplayName,
                                             Icon = "rbxthumb://type=AvatarHeadShot&id=" ..
                                                 AimlockTarget.UserId .. "&w=420&h=420",
@@ -2142,7 +2142,7 @@ loadscreen3:AddButton(
                                         game.StarterGui:SetCore(
                                             "SendNotification",
                                             {
-                                                Title = "Sanky Box",
+                                                Title = "cod3.solutions",
                                                 Text = "Locked : " .. tostring(targetplr),
                                                 Icon = "rbxthumb://type=AvatarHeadShot&id=" ..
                                                     game.Players[targetplr].UserId .. "&w=420&h=420",
@@ -2154,7 +2154,7 @@ loadscreen3:AddButton(
                                         aiming.targetaim.Notificationmode == true and
                                             aiming.targetaim.Notificationmodepart == "Meff"
                                      then
-                                        NotifyLib.prompt("Sanky Box ♠", "Locked: " .. tostring(targetplr), 0)
+                                        NotifyLib.prompt("cod3.solutions", "Locked: " .. tostring(targetplr), 0)
                                     end
                                     if aiming.targetaim.toggablexd == false then
                                         aiming.targetaim.toggablexd = true
@@ -2422,7 +2422,7 @@ loadscreen3:AddButton(
                                         game.StarterGui:SetCore(
                                             "SendNotification",
                                             {
-                                                Title = "Sanky Box",
+                                                Title = "cod3.solutions",
                                                 Text = "Unlocked",
                                                 Icon = "rbxassetid://11394475200",
                                                 Duration = 1
@@ -2433,7 +2433,7 @@ loadscreen3:AddButton(
                                         aiming.targetaim.Notificationmode == true and
                                             aiming.targetaim.Notificationmodepart == "Meff"
                                      then
-                                        NotifyLib.prompt("Sanky Box ♠", "Unlocked", 0)
+                                        NotifyLib.prompt("cod3.solutions", "Unlocked", 0)
                                     end
                                     if aiming.targetaim.toggablexd == true then
                                         aiming.targetaim.toggablexd = false
@@ -4480,16 +4480,16 @@ loadscreen3:AddButton(
                         velocitywalk = Boolean
 
                         if velocitywalk == true and notifyvel == true and Notificationstype2 == "Meff" then
-                            NotifyLib.prompt("Sanky Box ♠", "Enabled", 0.5)
+                            NotifyLib.prompt("cod3.solutions", "Enabled", 0.5)
                         end
                         if velocitywalk == false and notifyvel == true and Notificationstype2 == "Meff" then
-                            NotifyLib.prompt("Sanky Box ♠", "Disabled", 0.5)
+                            NotifyLib.prompt("cod3.solutions", "Disabled", 0.5)
                         end
                         if velocitywalk == true and notifyvel == true and Notificationstype2 == "Roblox" then
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Sanky Box",
+                                    Title = "cod3.solutions",
                                     Text = "Enabled",
                                     Icon = "rbxassetid://11394475200",
                                     Duration = 1
@@ -4500,7 +4500,7 @@ loadscreen3:AddButton(
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Sanky Box",
+                                    Title = "cod3.solutions",
                                     Text = "Disabled",
                                     Icon = "rbxassetid://11394475200",
                                     Duration = 1
@@ -5314,16 +5314,16 @@ loadscreen3:AddButton(
                     "你是垃圾，菜鸟可以做得更好。",
                     "imagine dying 😅😅😅 LLLL",
                     "Oops i forgot you were there, oh wait you actually dont exist anyways.",
-                    "ez ez you got clapped by a low level haha!",
+                    "ez ez you got clapped!",
                     "🤓: you cant just exploit in here!!111!!111 its illegal!!!!",
                     "why are you dying to me bro fr fr",
-                    "clapped by Sanky Box user :skull:",
+                    "clapped by cod3.solutions user :skull:",
                     "bro got clapped lol",
                     "🤓: imagine being fatherless'  where are yours then go check 😁😁😁",
                     "sorry did my target aim hit you? if so then youre trash 😅",
                     "bro got skill issues 😅😅😅",
                     "bozo cant even beat me",
-                    "fr fr sanky box on top",
+                    "fr fr cod3 on top",
                     "What's up 'Hackle cheatle' here guys, I have been arresting due to multiple crimes including cheating.",
                     "wdym touch grass i have one of those on my feet",
                     "fortnite 19$ gift card who wants it!!!??",
@@ -5341,20 +5341,20 @@ loadscreen3:AddButton(
                     "Sanky box better than you smh smh smh 😅"
                 }
                 getgenv().wordsV2 = {
-                    "Sanky Box > U😱",
-                    "Sanky Box owns you😹😹",
-                    "Get good get sanky box 🙂",
-                    "Stop crying and get sanky box",
+                    "cod3.solutions > U😱",
+                    "me owns you😹😹",
+                    "Get good get cod3 🙂",
+                    "Stop crying",
                     "Roll the ops on me then😹😹😹😹",
-                    "Get sanky box right now bro!!",
-                    "Get your aim up and get sanky box",
-                    "Stop complaining and get sanky box🤕🤕",
-                    "Sanky Box > Your career",
-                    "Yes ik sanky box is the best😳😳",
-                    "Sanky Box got more features then your grandmother🥸🥸",
-                    "get better dude🥳",
-                    "Bro just get sanky box LOL",
-                    "Yo 12 year old get sanky box!"
+                    "Get a cod3.solutions right now bro!!",
+                    "Get your aim up and get cod3.solutions",
+                    "Stop complaining and get cod3.solutions🤕🤕",
+                    "cod3.solutions > Your career",
+                    "Yes ik cod3.solutions is the best😳😳",
+                    "cod3.solutions got more features then your grandmother🥸🥸",
+                    "get better get cod3.solutions",
+                    "Bro just get cod3.solutions LOL",
+                    "Yo 12 year old get cod3.solutions!"
                 }
 
                 getgenv().wordsV3 = {
@@ -5370,7 +5370,7 @@ loadscreen3:AddButton(
                     "对不起，我的目标瞄准击中了你吗？ 如果是这样，那你就是垃圾！",
                     "兄弟有技能问题？",
                     "博佐连我都打不过",
-                    "fr fr fr sanky box on top",
+                    "fr fr fr cod3.solutions on top",
                     "这是怎么回事'Hackle cheatle'这里的家伙，我一直因包括作弊在内的多项罪行而被捕。",
                     "wdym触摸草我有一个那些在我的脚",
                     "fortnite19$礼品卡谁想要它！!!??",
@@ -5384,48 +5384,48 @@ loadscreen3:AddButton(
                     "那就把行动推到我身上！",
                     "你应该回幼儿园去。",
                     "我只是比你好！!!!!",
-                    "Sanky Box>你😱",
-                    "Sanky Box拥有你！",
+                    "cod3.solutions>你😱",
+                    "cod3.solutions拥有你！",
                     "别哭了，别哭了",
                     "那就把行动推到我身上！",
                     "马上去拿桑奇盒子，兄弟！!",
                     "让你的目标，并得到桑奇框",
                     "别抱怨了，拿个傻盒子！",
-                    "Sanky Box>你的事业",
-                    "是的，sanky box是最好的！",
+                    "cod3.solutions>你的事业",
+                    "是的，cod3.solutions是最好的！",
                     "Sanky Box比你祖母有更多的功能！",
                     "变得更好，伙计！",
                     "兄弟只要拿到傻盒子哈哈",
-                    "哟12岁得到sanky box！"
+                    "哟12岁得到cod3.solutions！"
                 }
 
                 getgenv().wordsV4 = {
-                    "Sanky Box > ты 😱 ",
-                    "Sanky Box владеет тобой 😹 😹 ",
-                    "Будь хорошим, получи sanky box 🙂 ",
-                    "Перестань плакать и получи sanky box",
-                    "Тогда проверни операцию на мне 😹 😹 😹 😹 ",
-                    "Получи sanky box прямо сейчас, братан!!",
-                    "Прицелись и получи sanky box",
-                    "Перестань жаловаться и получи sanky box 🤕 🤕 ",
-                    "Sanky Box > Твоя карьера",
-                    "Да, sanky box лучший 😳 😳 ",
-                    "У Sanky Box больше возможностей, чем у твоей бабушки🥸🥸",
+                    "cod3.solutions > ты 😱 ",
+                    "cod3.solutions овнул тебя 😹 😹 ",
+                    "стань лучше , гетни cod3.solutions 🙂 ",
+                    "вытри слезы и гетни cod3.solutions",
+                    "роллю оппов в блант😹 😹 😹 😹 ",
+                    "гетай cod3.solutions",
+                    "чекай и гетай cod3.solutions",
+                    "хватить реветь просто гетни cod3.solutions 🤕 🤕 ",
+                    "cod3.solutions > Твоя карьера",
+                    "Да, cod3.solutions лучший 😳 😳 ",
+                    "У cod3.solutions больше возможностей, чем у твоей бабушки🥸🥸",
                     "становись лучше, чувак🥳",
-                    "Братан, просто купи сэнки бокс, ЛОЛ",
-                    "Йоу, 12-летний, купи сэнки бокс!",
+                    "Братан, просто гетни cod3.solutionsс, ЛОЛ",
+                    "Йоу, 12-летний, гетни cod3.solutions!",
                     "представь, что умираешь 😅 😅 😅 LLLL",
                     "Ой, я забыл, что ты там был, о, подожди, ты на самом деле все равно не существуешь.",
-                    "ez ez тебе похлопал низкий уровень, ха-ха!",
-                    " 🤓 : ты не можешь просто эксплуатировать здесь!!111!!111 это незаконно!!!!",
+                    "ez ez тебя овнул cod3.solutionsь, ха-ха!",
+                    " 🤓 : ты не можешь просто юзать експлоиты  здесь!!111!!111 это незаконно!!!!",
                     "почему ты умираешь для меня, братан, фр, фр",
-                    "похлопал пользователь Sanky Box :skull:",
-                    "братану похлопали, лол",
+                    "теперь ты раб пользователя cod3.solutions :skull:",
+                    "братана овнули, лол",
                     " 🤓 : представь, что ты сирота, а где твои, тогда иди проверь",
                     "прости, моя цель попала в тебя? если так, то ты мусор 😅 😅 😅 ",
                     "у братана проблемы с навыками 😅 😅 😅 ",
                     "придурок даже не может победить меня",
-                    "fr fr sanky box сверху",
+                    "fr fr cod3.solutions онтоп",
                     "Как дела, ребята, меня арестовывали из-за множества преступлений, включая мошенничество",
                     "wdym touch grass, у меня есть такая же на ногах",
                     "подарочная карта fortnite на 19$, кто хочет ее!!!??",
@@ -5435,12 +5435,12 @@ loadscreen3:AddButton(
                     "черт возьми, братан, твоя мать бросила тебя, когда ты родился",
                     "С кем ты разговариваешь? бот, говорящий об убийстве? 🤓 ",
                     "черт возьми, братан, тебе действительно нужен психотерапевт 😅 😅 ",
-                    " 🤓 : прекрати взламывать!!!! это против правил!!!",
+                    " 🤓 : прекрати эклплоитить!!!! это против правил!!!",
                     "wenomechainsama tumajarbisaun",
                     "Тогда проверни на мне операцию",
                     "тебе стоит вернуться в детский сад, братан",
                     "я просто лучше тебя!!!!!",
-                    "Сэнки бокс лучше, чем ты, смх, смх, смх 😅 "
+                    "cod3.solutions бокс лучше, чем ты, смх, смх, смх 😅 "
                 }
 
                 getgenv().customword = {}
@@ -5519,7 +5519,7 @@ loadscreen3:AddButton(
                                         words[math.random(#getgenv().words)],
                                         "All"
                                     )
-                                elseif getgenv().Customtypertype == "SankyBox" then
+                                elseif getgenv().Customtypertype == "cod3.solutions" then
                                     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
                                         wordsV2[math.random(#getgenv().wordsV2)],
                                         "All"
@@ -5559,7 +5559,7 @@ loadscreen3:AddButton(
                 Trashtalkable:AddLabel("-Type Ver-")
                 Trashtalkable:AddDropdown(
                     "Type",
-                    {"TrashTalk", "SankyBox", "Chinease", "Russian", "Custom"},
+                    {"TrashTalk", "cod3.solutions", "Chinease", "Russian", "Custom"},
                     "TrashTalk",
                     false,
                     function(Value)
@@ -5581,7 +5581,7 @@ loadscreen3:AddButton(
                         game.StarterGui:SetCore(
                             "SendNotification",
                             {
-                                Title = "Sanky Box",
+                                Title = "cod3.solutions",
                                 Text = "Succes!",
                                 Icon = "rbxassetid://11394475200",
                                 Duration = 1
@@ -5598,7 +5598,7 @@ loadscreen3:AddButton(
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Sanky Box",
+                                    Title = "cod3.solutions",
                                     Text = "Succes!",
                                     Icon = "rbxassetid://11394475200",
                                     Duration = 1
@@ -5608,7 +5608,7 @@ loadscreen3:AddButton(
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Sanky Box",
+                                    Title = "cod3.solutions",
                                     Text = "Error!",
                                     Icon = "rbxassetid://11394475200",
                                     Duration = 1
@@ -5673,7 +5673,7 @@ loadscreen3:AddButton(
                                             game.StarterGui:SetCore(
                                                 "SendNotification",
                                                 {
-                                                    Title = "Sanky Box",
+                                                    Title = "cod3.solutions",
                                                     Text = "DETECTED MODERATOR!",
                                                     Icon = "rbxassetid://11394475200",
                                                     Duration = 1
@@ -5694,7 +5694,7 @@ loadscreen3:AddButton(
                                                 game.StarterGui:SetCore(
                                                     "SendNotification",
                                                     {
-                                                        Title = "Sanky Box",
+                                                        Title = "cod3.solutions",
                                                         Text = "DETECTED MODERATOR!",
                                                         Icon = "rbxassetid://11394475200",
                                                         Duration = 1
@@ -6109,7 +6109,7 @@ loadscreen3:AddButton(
                                 return newindex(self, index, value)
                             end
                         )
-                        NotifyLib.prompt("Sanky Box ♠", "Succes!", 3)
+                        NotifyLib.prompt("cod3.solutions", "Succes!", 3)
                     end
                 )
 
@@ -6569,7 +6569,7 @@ loadscreen3:AddButton(
                     function()
                         local nobulletdelay = game:GetService("CorePackages").Packages
                         nobulletdelay:Destroy()
-                        NotifyLib.prompt("Sanky Box ♠", "Succes!", 3)
+                        NotifyLib.prompt("cod3.solutions", "Succes!", 3)
                     end
                 )
 
@@ -10622,15 +10622,15 @@ loadscreen3:AddButton(
             if is_synapse_function then
                 SettingsTab:CreateConfigSystem("left")
             else
-                NotifyLib.prompt("Sanky Box ♠", "Your Executor Doesnt Support Config.", 3)
+                NotifyLib.prompt("cod3.solutions", "Your Executor Doesnt Support Config.", 3)
             end
 
-            local SettingsTab23 = SettingsTab:CreateSector("Credits", "right")
+            local SettingsTab23 = SettingsTab:CreateSector("атсылачкоо", "right")
 
-            SettingsTab23:AddLabel("Memelouse#3150 - Dev/Founder")
-            SettingsTab23:AddLabel("speeds#0001 - Site Host")
-            SettingsTab23:AddLabel("wys#0001 - Beta Tester")
-            SettingsTab23:AddLabel("Sanky Box 2022 All Rights Reserved")
+            SettingsTab23:AddLabel("cod3 - саздател")
+            SettingsTab23:AddLabel("qq8x8 sigma)
+            SettingsTab23:AddLabel("he4to retard ebuvhu")
+            SettingsTab23:AddLabel("cod3.solutions scam is legal")
 
             local SettingsTab2 = SettingsTab:CreateSector("Menu", "right")
             local watermarksorry =
@@ -10649,29 +10649,26 @@ loadscreen3:AddButton(
                 "Join Discord",
                 function(bool)
                     loadstring(
-                        game:HttpGet("https://raw.githubusercontent.com/xwel33/meffsol-remake/main/discord%20join")
+                        game:HttpGet("https://raw.githubusercontent.com/neftyanoy/discord/main/discord-invite")
                     )()
                 end
             )
 
             local fortnite =
                 SettingsTab:AddButton(
-                "website link",
+                "profile",
                 function(bool)
-                    setclipboard("https://speeds.solutions/")
-                    NotifyLib.prompt("Sanky Box ♠", "Successfully copied to clipboard", 3)
+                    setclipboard("https://www.roblox.com/users/4645375227/profile")
+                    NotifyLib.prompt("cod3.solutions", "Successfully copied to clipboard", 3)
                 end
             )
-            NotifyLib.prompt("Sanky Box ♠", "Successfully Loaded Script!", 3)
+            NotifyLib.prompt("cod3.solutions", "Successfully Loaded Script!", 3)
         end
     end
 )
 
 local loadscreen333 = loadscreen2:CreateSector("Credits", "right")
 
-loadscreen333:AddLabel("Memelouse#3150 - Dev/Founder")
-loadscreen333:AddLabel("speeds#0001 - Site Host")
-loadscreen333:AddLabel("wys#0001 - Beta Tester")
-loadscreen333:AddLabel("Sanky Box 2022 All Rights Reserved")
+loadscreen333:AddLabel("https://www.roblox.com/users/4645375227/profile")
 
 -- FUCK DA HOOD Memelouse#3150
